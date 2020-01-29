@@ -31,7 +31,7 @@ public class Member {
 
 	@Override
 	public String toString() {
-		return "[" + password + ", " + name + "]";
+		return name;
 	}
 
 }
